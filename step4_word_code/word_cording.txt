@@ -1,1 +1,38 @@
+//step 1: check current time
+Get currentTime
 
+IF currentTime == "08:00 OR currentTime == "18:00" THEN
+
+//step 2: check food level
+GET foodLevel
+
+IF foodLevel == "Empty" THEN
+  SEND alert("No food available in storage")
+  END
+ELSE
+
+//step 3: Dispense/ release food
+ACTIVATE servoMotor
+DISPENSEFOOD
+
+//step 4: record initial bowl weight
+initialWeight = READ weightSensor
+
+//step 5: Wait 10 minutes and read bowel weight again
+finalWeight = READ weightSensor
+
+//step 7: compare weights
+IF finalWeight == initialWeight THEN 
+  SEND alert("food not eaten")
+ELSE
+  LOG feedingEvent(urrentTime, "success")
+ END IF
+END IF
+
+ELSE
+//not feeding time
+WAIT until next time check
+END IF
+
+//End of process
+END
