@@ -18,5 +18,6 @@ This project is part of a university assignment. It simulates a low-cost automat
 # Collaborators
 Tutor and Lecturer added in GitHub settings.
 
-Repository Link
-- https://github.com/pem-choki/pet-feeder-project/edit/main/README.md
+## Repository Link
+You can access the full project here:  
+- https://github.com/pem-choki/pet-feeder-project
