@@ -1,1 +1,34 @@
+# Step 1: Analysis
+
+## Problem Statement
+
+The shelter needs a low-cost, automated pet feeder that can feed dogs and cats the proper amount at predetermined times, detect whether the food has been eaten, and alert workers in the event of an issue. 
+
+## Objectives
+
+- Automate feeding at scheduled times.
+- Ensure pets receive the correct portion.
+- Notify staff if feeding fails or food is not eaten.
+- Use simple hardware like servo motors, sensors, and microcontrollers.
+
+## Constraints
+
+- Must be affordable and easy to maintain.
+- Should work with minimal human supervision.
+- Needs to operate on battery backup during power outages.
+- Should be safe and pet-friendly.
+
+## Stakeholders
+
+- Animal shelter staff
+- Shelter management
+- Pets (indirectly)
+
+## Success Criteria
+
+- Dispenses food at correct times.
+- Delivers accurate portions.
+- Sends alerts when issues occur.
+- Easy to set up and operate.
+
 
