@@ -16,7 +16,9 @@ This project is part of a university assignment. It simulates a low-cost automat
 - Step5_Testing – Test results and improvements
 
 # Collaborators
-Tutor and Lecturer added in GitHub settings.
+
+- Lecturer: [Name] – Access pending 
+- Tutor: [Name] – Access pending 
 
 ## Repository Link
 You can access the full project here:  
